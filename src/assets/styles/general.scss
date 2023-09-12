@@ -1,0 +1,34 @@
+// VARIABLES 
+@use './partials/variables' as *;
+
+// MIXINS
+@use './partials/mixins' as *;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(243, 239, 239);
+    height: 100vh;
+    
+    font-family:'Roboto', sans-serif;
+    font-size: .7rem;
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 8rem;
+    }
+}
